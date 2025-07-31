@@ -17,13 +17,15 @@
 
 .icon{
     position: relative;
-  top: 39px;   
+    width: 5%;
+  top: 32px;   
   left: 0px;
   color: rgb(112, 3, 143);  
 
 }
 .icon-pass{  position: relative;
-  top: 39px;   
+      width: 5%;
+  top: 31px;   
   left: 0px;
   color: rgb(112, 3, 143); 
 
@@ -35,7 +37,8 @@ body{
 }
 .Login{
     width:90%;
-   padding: 0.4rem;
+
+   /* padding: 0.4rem; */
     margin-top: 1em;
     margin-bottom: 0.5em;
     padding-left: 20px;
@@ -67,7 +70,7 @@ body{
     color:rgba(18, 5, 140, 0.853) ;
 }
 .container2{
-    background-image: url(WhatsApp\ Image\ 2025-07-30\ at\ 22.37.04_f99fbb5a.jpg);
+    background-image: url(WhatsApp\ Image\ 2025-07-30\ at\ 22.37.04_a0a980e4.jpg);
     color: white;
     width: 40%;
     background-size: cover;
@@ -85,6 +88,7 @@ body{
 }
 @media(max-width: 650px){
    .total{
+    width: 90%;
    margin-top: 1rem;
     display: flex;
     flex-direction: column;
@@ -94,7 +98,7 @@ body{
     padding: 1em;
     
     width: 100%;
-    height: 50vh;
+    height: 30vh;
      box-sizing: border-box;
    }
    .container{
